@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>CMS - Express</title>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/flatly/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="container hidden">
+		<div class="row top-30">
+			<div class="col-md-2 col-sm-2">
+				<a class="btn btn-light" href="/blog">Home Page</a>
+			</div>
+			<div class="col-md-2 col-sm-2">
+				<a class="btn btn-light" href="/authors">Game List</a>
+			</div>
+			<div class="col-md-2 col-sm-2">
+				<a class="btn btn-light" href="/login">Login</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 offset-md-3">
+				<form id="cms">
+					<div class="form-group">
+						<label for="title">Create a Username / Nickname: </label>
+						<input placeholder="Username" type="text" class="form-control" id="title">
+						<br />
+						<label for="body">Password: </label>
+						<textarea placeholder="Password" class="form-control" rows="1" id="body"></textarea>
+						<br />
+
+						<label for="recovery">Recovery Question: What is your birth year?</label>
+						<textarea placeholder="Use this as a way to recover your account" class="form-control" rows="1" id="recovery"></textarea>
+
+						<!-- <label for="category">Security Question: What is your birth year?</label>
+							<select class="custom-select" id="author">
+  						</select> -->
+
+						<br />
+						<button type="submit" class="btn btn-success submit">Submit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- Custom Script -->
+	<script src="js/cms.js" type="text/javascript"></script>
+
+</body>
+
+</html>
