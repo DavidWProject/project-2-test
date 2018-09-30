@@ -6,8 +6,7 @@ $(document).ready(function () {
     var cmsForm = $("#cms");
     var authorSelect = $("#author");
     var login = $(".login");
-    var listOfUsername = [];
-    var listOfPassword = [];
+
     // Adding an event listener for when the form is submitted
 
     // Gets the part of the url that comes after the "?" (which we have if we're updating a post)
@@ -47,45 +46,6 @@ $(document).ready(function () {
                 alert("Invalid Username or Password");
             }
 
-
-
-
-            // authentication1(); 
-            // authentication2(); 
-    
-            // function checkUsername() {
-            //     return userName; 
-            // }
-    
-            // function checkPassword() {
-            //     return userPassword; 
-            // }
-    
-            // function authentication1() {
-            //     console.log(listOfUsername.some(checkUsername)); 
-            // }
-    
-            // function authentication2() {
-            //     console.log(listOfPassword.some(checkPassword));
-            // }
-
-            // if ((authentication1 && authentication2) === true) {
-            //     alert("Welcome"); 
-            // } 
-    
-            // if ((authentication1 && authentication2) === false) {
-            //     alert("Invalid Username or Password, check the case sensitivity");
-            // }
-
-
-
-            //     // posts = data;
-            //     // if (!posts || !posts.length) {
-            //     //     displayEmpty(author);
-            //     // } else {
-            //     //     initializeRows();
-            //     // }
-            // };
         });
 
 
@@ -107,12 +67,7 @@ $(document).ready(function () {
         for (var i = 0; i < data.length; i++) {
     
         }
-        // posts = data;
-        // if (!posts || !posts.length) {
-        //     displayEmpty(author);
-        // } else {
-        //     initializeRows();
-        // }
+
     });
 
 });

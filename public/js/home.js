@@ -18,9 +18,9 @@ $(document).ready(function () {
     }
 
     console.log(data); 
-    if (data.length < 1) {
-      displayEmpty(); 
-    }
+    // if (data.length < 1) {
+    //   displayEmpty(); 
+    // }
     // posts = data;
     // if (!posts || !posts.length) {
     //     displayEmpty(author);
@@ -29,6 +29,7 @@ $(document).ready(function () {
     // }
   });
 
+  displayEmpty(); 
 
   // This function displays a message when there are no posts
   function displayEmpty() {
