@@ -39,7 +39,7 @@ $(document).ready(function () {
                 }
 
                 if (data[i].title !== userName) {
-                    valid = false; 
+                    validation = false; 
                 }
             }
 
